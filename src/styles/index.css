@@ -299,3 +299,55 @@ body {
   background: #edc22e;
   color: #776e65;
 }
+
+.app--faceoff {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app--faceoff .app__header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.app--faceoff .app__header > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faceoff {
+  width: 1032px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.faceoff__side {
+  width: 500px;
+  flex: 0 0 500px;
+  text-align: center;
+}
+
+.faceoff__side .app__board-wrap {
+  width: 500px;
+}
+
+.faceoff__side h2 {
+  margin: 0 0 8px;
+}
+
+.faceoff__side p {
+  margin: 8px 0 0;
+}
